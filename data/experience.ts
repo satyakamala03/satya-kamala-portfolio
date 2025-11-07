@@ -63,7 +63,7 @@ export const experiences: ExperienceItem[] = [
       'Automated Oracle/MySQL databases password setup with a Python script, improving compliance and eliminating configuration errors by 99% that delayed developer access.',
       'Implemented Java and Lua based unit tests to simulate database replication delays in QA, enabling 15+ teams to diagnose sync issues before release and avoid production-only detection.',
       'Created deployment data reports using Python and Shell scripts to support migration of GoPay database servers in alignment with data residency and compliance regulations.',
-      'Built an end-to-end observability pipeline for OCC flows, replacing legacy log-file parsing with OpenTelemetry-based monitoring, logging, tracing, and alerting to eliminate server delays and enable real-time metrics.',
+      // 'Built an end-to-end observability pipeline for OCC flows, replacing legacy log-file parsing with OpenTelemetry-based monitoring, logging, tracing, and alerting to eliminate server delays and enable real-time metrics.',
     ],
     technologies: ['Python', 'Java', 'Lua', 'Shell Scripting', 'Oracle', 'MySQL', 'OpenTelemetry', 'Docker'],
     starDetails: [
