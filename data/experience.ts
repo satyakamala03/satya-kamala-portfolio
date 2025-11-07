@@ -97,12 +97,12 @@ export const experiences: ExperienceItem[] = [
         action: 'I developed Python and Shell scripts that collected and analyzed deployment data from multiple sources. I created comprehensive reports that tracked server configurations, data locations, and compliance status. I worked closely with compliance teams to ensure all requirements were met.',
         result: 'Successfully supported the migration of GoPay database servers in full compliance with data residency regulations. The reports provided clear visibility into the migration process and ensured no compliance violations.',
       },
-      {
-        situation: 'OCC flows lacked proper observability, with teams relying on legacy log-file parsing that was slow, error-prone, and didn\'t provide real-time insights.',
-        task: 'Build a modern observability pipeline for OCC flows that replaces legacy log parsing with real-time monitoring and alerting.',
-        action: 'I designed and implemented an end-to-end observability pipeline using OpenTelemetry. I integrated monitoring, logging, tracing, and alerting capabilities. I created dashboards and alerting rules that provided real-time visibility into OCC flow performance.',
-        result: 'Eliminated server delays and enabled real-time metrics. Teams can now proactively identify and resolve issues before they impact users. The observability pipeline has become a critical tool for maintaining system reliability.',
-      },
+      // {
+      //   situation: 'OCC flows lacked proper observability, with teams relying on legacy log-file parsing that was slow, error-prone, and didn\'t provide real-time insights.',
+      //   task: 'Build a modern observability pipeline for OCC flows that replaces legacy log parsing with real-time monitoring and alerting.',
+      //   action: 'I designed and implemented an end-to-end observability pipeline using OpenTelemetry. I integrated monitoring, logging, tracing, and alerting capabilities. I created dashboards and alerting rules that provided real-time visibility into OCC flow performance.',
+      //   result: 'Eliminated server delays and enabled real-time metrics. Teams can now proactively identify and resolve issues before they impact users. The observability pipeline has become a critical tool for maintaining system reliability.',
+      // },
     ],
   },
   {

@@ -10,19 +10,19 @@ const hobbies = [
     icon: Book,
     emoji: '📚',
     title: 'Reading',
-    description: 'Love diving into tech blogs, sci-fi novels, and books on philosophy and personal development',
+    description: 'Love diving into tech blogs, and books on sci-fi or other fiction.',
   },
-  {
-    icon: Gamepad2,
-    emoji: '🎮',
-    title: 'Gaming',
-    description: 'Enjoy strategic games and exploring virtual worlds during downtime',
-  },
+  // {
+  //   icon: Gamepad2,
+  //   emoji: '🎮',
+  //   title: 'Gaming',
+  //   description: 'Enjoy strategic games and exploring virtual worlds during downtime',
+  // },
   {
     icon: Dumbbell,
     emoji: '🏃',
     title: 'Fitness',
-    description: 'Running marathons and hitting the gym keeps my mind sharp and body healthy',
+    description: 'Some Yoga, Pranayama, and hitting the gym keeps my mind sharp and body healthy',
   },
   {
     icon: Camera,
@@ -34,13 +34,13 @@ const hobbies = [
     icon: Plane,
     emoji: '✈️',
     title: 'Travel',
-    description: 'Exploring new cultures, cuisines, and meeting interesting people around the world',
+    description: 'Exploring new cultures, cuisines, and meeting interesting people wherever I go!',
   },
   {
     icon: Music,
     emoji: '🎵',
     title: 'Music',
-    description: 'From jazz to electronic, music fuels my creativity and focus',
+    description: 'Some Indian classical, Regional Telugu(India) and American Pop, music fuels my creativity and keeps me calm.',
   },
 ]
 
