@@ -34,6 +34,17 @@ export const projects: Project[] = [
     imageGradient: 'from-purple-400 via-pink-500 to-red-500',
     imageUrl: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop',
   },
+  {
+    id: 'MedGemmaReportGen',
+    title: 'Medical Chest X-ray Report Generation Pipeline',
+    description: 'Designed a distributed medical imaging inference system with Spark and Med-GEMMA, scaling chest X-ray report generation to thousands of images with end-to-end latency and throughput analysis.',
+    longDescription: 'This project implements an end-to-end, distributed system for generating full chest X-ray radiology reports using a large multimodal model (Med-GEMMA-4B). The pipeline is designed as a production-style inference system, combining Apache Spark for large-scale data processing, GPU-accelerated model inference, and Apache Kafka for streaming request ingestion. The system supports both batch load-testing and real-time streaming modes. In batch mode, the pipeline processes increasing image volumes (from tens to thousands of X-rays per run), automatically tuning Spark partitioning and GPU batch sizes to maximize throughput while staying within GPU memory constraints. In streaming mode, Kafka is used to simulate bursty, real-world traffic, enabling the system to process 1,000+ concurrent requests while maintaining stable latency. To evaluate scalability and reliability, the project includes comprehensive performance instrumentation, collecting per-image latency percentiles (p50/p95/p99), throughput metrics, error rates, and queue drain times. Results are aggregated across multiple runs and visualized through automated reports and plots, providing clear insight into system capacity, bottlenecks, and behavior under load. Overall, this project demonstrates practical experience in distributed systems, performance engineering, and production-grade ML inference pipelines, with a strong emphasis on scalability, observability, and real-world system constraints.',
+    technologies: ['Python', 'Distributed Systems', 'Large Scale Data processing', 'Generative AI', 'Apache Spark', 'Apache Kafka', 'Multi-threading', 'Batch Processing'],
+    githubUrl: 'https://github.com/satyakamala03/Medgemma_project',
+    liveUrl: undefined,
+    imageGradient: 'from-purple-400 via-pink-500 to-red-500',
+    imageUrl: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop',
+  },
   // {
   //   id: 'ai-photo-search',
   //   title: 'AI Photo Search',
