@@ -43,7 +43,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/satyakamala03/Medgemma_project',
     liveUrl: undefined,
     imageGradient: 'from-purple-400 via-pink-500 to-red-500',
-    imageUrl: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop',
+    imageUrl: 'https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-AAF87btzg9c',
   },
   // {
   //   id: 'ai-photo-search',
